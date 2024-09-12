@@ -21,6 +21,17 @@ body {
   overflow: hidden;
 }
 
+.saludo{
+  position: absolute;
+  top: 10vh;
+  left: 20vw;
+  transform: rotate(-20deg);
+  h1{
+    color: #fff;
+    font-family: "Playwrite CU", cursive;
+  }
+}
+
 .atras,
 .adelante{
   position: absolute;
