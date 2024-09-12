@@ -27,10 +27,10 @@ body {
   left: 50%;
   transform: rotate(-20deg) translateX(-50%);
   h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #fff;
     font-family: "Playwrite CU", cursive;
-    line-height: 3rem;
+    line-height: 2.8rem;
   }
 }
 
