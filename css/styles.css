@@ -25,7 +25,14 @@ body {
 .adelante{
   position: absolute;
   transform: scale(0.6);
+}
+
+.atras{
   top: 65.8vh;
+}
+
+.adelante{
+  top: 50vh;
 }
 
 .flowers {
