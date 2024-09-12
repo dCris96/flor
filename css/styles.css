@@ -15,7 +15,7 @@ body {
   align-items: flex-end;
   justify-content: center;
   min-height: 100vmin;
-  background-image: linear-gradient(180deg, #831a5e 0, #6c1456 16.67%, #530d4b 33.33%, #39053c 50%, #22002c 66.67%, #13001f 83.33%, #000013 100%);
+  background-image: linear-gradient(180deg, #711552 0, #5b0e49 16.67%, #43073d 33.33%, #2b012e 50%, #1a001f 66.67%, #000011 83.33%, #000000 100%);
   overflow: hidden;
 }
 
