@@ -24,8 +24,8 @@ body {
 .saludo{
   position: absolute;
   top: 10vh;
-  left: 20vw;
-  transform: rotate(-20deg);
+  left: 50%;
+  transform: rotate(-20deg) translateX(-50%);
   h1{
     color: #fff;
     font-family: "Playwrite CU", cursive;
@@ -39,11 +39,11 @@ body {
 }
 
 .atras{
-  top: 65.8vh;
+  top: 64vh;
 }
 
 .adelante{
-  top: 50vh;
+  top: 59vh;
 }
 
 .flowers {
