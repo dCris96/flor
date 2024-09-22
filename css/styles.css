@@ -26,11 +26,22 @@ body {
   top: 10vh;
   left: 50%;
   transform: translateX(-50%);
+  text-align: center;
   h1{
     font-size: 1.5rem;
     color: #fff;
     font-family: "Playwrite CU", cursive;
     line-height: 2.5rem;
+    animation: wave 2s ease-in-out infinite;
+  }
+
+  @keyframes wave {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
   }
 }
 
@@ -38,6 +49,16 @@ body {
 .adelante{
   position: absolute;
   transform: scale(0.6);
+  animation: arribita 2s ease-in-out forwards;
+}
+
+@keyframes arribita {
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(0.6);
+  }
 }
 
 .atras{

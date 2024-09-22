@@ -7,18 +7,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Yellow Flower</title>
 </head>
 <body>
 <body class="not-loaded">
 
-  <div class="saludo" data-aos="fade-down">
+  <div class="saludo">
     <h1>Yo, vi esta flor y pense en ti porque es bonita y bueno, en realidad a mi no me gusta, pero crei que te gustaría porque tu si eres bonita!</h1>
   </div>
 
-    <div class="atras" data-aos="fade-up">
+    <div class="atras">
       <img src="./atras.png" alt="">
     </div>
 
@@ -105,21 +104,21 @@
       </div>
     </div>
 
-    <div class="adelante" data-aos="fade-up">
+    <div class="adelante">
       <img src="./adelante.png" alt="">
     </div>
 
   </body>
 </body>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>   
+
+<script>
   onload = () => {
     const c = setTimeout(() => {
       document.body.classList.remove("not-loaded");
       clearTimeout(c);
     }, 1000);
   };
-
 </script>
+
 </html>
