@@ -30,10 +30,10 @@ body {
   transform: translateX(-50%);
   text-align: center;
   h1{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #fff;
     font-family: "Playwrite CU", cursive;
-    line-height: 2.5rem;
+    line-height: 2rem;
     animation: opacidad 4s;
   }
 }
