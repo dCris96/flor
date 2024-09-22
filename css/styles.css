@@ -22,8 +22,10 @@ body {
 }
 
 .saludo{
+  width: 100%;
+  padding: 10px;
   position: absolute;
-  top: 10vh;
+  top: 2vh;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -32,11 +34,11 @@ body {
     color: #fff;
     font-family: "Playwrite CU", cursive;
     line-height: 2.5rem;
-    animation: wave 2s;
+    animation: opacidad 4s;
   }
 }
 
-@keyframes wave {
+@keyframes opacidad {
   0%{
     opacity: 0;
   }
