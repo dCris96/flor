@@ -32,24 +32,24 @@ body {
     color: #fff;
     font-family: "Playwrite CU", cursive;
     line-height: 2.5rem;
-    animation: wave 2s ease-in-out infinite;
+    animation: wave 2s;
   }
+}
 
-  @keyframes wave {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
+@keyframes wave {
+  0%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
 .atras,
 .adelante{
   position: absolute;
-  transform: scale(0.6);
-  animation: arribita 2s ease-in-out forwards;
+  /* transform: scale(0.6); */
+  animation: arribita 1s ease-in-out forwards;
 }
 
 @keyframes arribita {
