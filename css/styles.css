@@ -25,7 +25,7 @@ body {
   position: absolute;
   top: 10vh;
   left: 50%;
-  transform: rotate(-20deg) translateX(-50%);
+  transform: translateX(-50%);
   h1{
     font-size: 1.5rem;
     color: #fff;
